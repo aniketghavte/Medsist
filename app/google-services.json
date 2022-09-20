@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853144782669",
+    "project_id": "medsist-527a1",
+    "storage_bucket": "medsist-527a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853144782669:android:07c884d9091b18bf661904",
+        "android_client_info": {
+          "package_name": "com.aniketproject.medsist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853144782669-1mst61rmm7aj23bi4p876obtb2sasdjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5OETJx68kvLNQH3WpagRJMG-Sa_QKhl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853144782669-1mst61rmm7aj23bi4p876obtb2sasdjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

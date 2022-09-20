@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pthome1"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/ptmedicine1"
+        android:icon="@drawable/patient"
+        android:title="Medicines" />
+    <item
+        android:id="@+id/ptdoctor1"
+        android:icon="@drawable/doct"
+        android:title="doctor" />
+    <item
+        android:id="@+id/ptexercise1"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="Exercise" />
+</menu>
