@@ -1,4 +1,4 @@
-package com.projectbyaniket.chatx.ModelClass;
+package com.aniketproject.medsist;
 
 public class Massages {
     String massage;

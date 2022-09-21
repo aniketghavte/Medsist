@@ -13,11 +13,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.aniketproject.medsist.Choose_Screen;
+import com.aniketproject.medsist.Pat_Profile;
 import com.aniketproject.medsist.R;
 import com.aniketproject.medsist.databinding.ActivityPatHomeBinding;
 import com.google.firebase.auth.FirebaseAuth;
@@ -28,6 +28,7 @@ public class PatHomeActivity extends AppCompatActivity {
     FirebaseAuth auth;
     FirebaseDatabase database;
     ImageView ptset;
+    ImageView ptprof;
 
 
     ActivityPatHomeBinding binding;
@@ -42,6 +43,7 @@ public class PatHomeActivity extends AppCompatActivity {
         replaceFragment(new PtHomeFragment());
 
         ptset = findViewById(R.id.ptset);
+        ptprof = findViewById(R.id.ptprof);
 
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
@@ -51,6 +53,13 @@ public class PatHomeActivity extends AppCompatActivity {
         if (auth.getCurrentUser() == null){
             startActivity(new Intent(PatHomeActivity.this, Choose_Screen.class));
         }
+        ptprof.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(PatHomeActivity.this, Pat_Profile.class);
+                startActivity(i);
+            }
+        });
         ptset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

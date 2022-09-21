@@ -1,7 +1,8 @@
-package com.projectbyaniket.chatx.Adapter;
+package com.aniketproject.medsist;
 
-import static com.projectbyaniket.chatx.Activity.chatActivity.RImage;
-import static com.projectbyaniket.chatx.Activity.chatActivity.SImage;
+import static com.aniketproject.medsist.Chat_Activity.RImage;
+import static com.aniketproject.medsist.Chat_Activity.SImage;
+
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,8 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.projectbyaniket.chatx.ModelClass.Massages;
-import com.projectbyaniket.chatx.R;
+
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

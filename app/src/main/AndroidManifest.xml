@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Medsist"
         tools:targetApi="31">
         <activity
+            android:name=".Pat_Profile"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Chat_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".DocHomeActivity"
             android:exported="false">
             <meta-data

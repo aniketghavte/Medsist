@@ -50,16 +50,16 @@ public class doc_adapter extends RecyclerView.Adapter<doc_adapter.ViewHolder>{
         holder.userStatus.setText(users.status);
         Picasso.get().load(users.imageuri).into(holder.userProfile);
 
-//        holder.itemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(homeActivity, chatActivity.class);
-//                intent.putExtra("name",users.getName());
-//                intent.putExtra("ReciverImageUri",users.getImageuri());
-//                intent.putExtra("uid",users.getUid());
-//                homeActivity.startActivity(intent);
-//            }
-//        });
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(homeActivity, Chat_Activity.class);
+                intent.putExtra("name",users.getName());
+                intent.putExtra("ReciverImageUri",users.getImageuri());
+                intent.putExtra("uid",users.getUid());
+                homeActivity.startActivity(intent);
+            }
+        });
     }
 
     @Override
