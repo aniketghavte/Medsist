@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.aniketproject.medsist.patient.PatHomeActivity;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override

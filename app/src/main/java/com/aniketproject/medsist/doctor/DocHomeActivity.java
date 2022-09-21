@@ -1,4 +1,4 @@
-package com.aniketproject.medsist;
+package com.aniketproject.medsist.doctor;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,11 +12,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.aniketproject.medsist.Choose_Screen;
 import com.aniketproject.medsist.R;
 import com.aniketproject.medsist.databinding.ActivityDocHomeBinding;
-import com.aniketproject.medsist.databinding.ActivityPatHomeBinding;
-import com.aniketproject.medsist.patient.PatHomeActivity;
-import com.aniketproject.medsist.patient.PtHomeFragment;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 

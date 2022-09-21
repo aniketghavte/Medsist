@@ -1,4 +1,4 @@
-package com.aniketproject.medsist.patient;
+package com.aniketproject.medsist.doctor;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +20,10 @@ import com.aniketproject.medsist.Choose_Screen;
 import com.aniketproject.medsist.Pat_Profile;
 import com.aniketproject.medsist.R;
 import com.aniketproject.medsist.databinding.ActivityPatHomeBinding;
+import com.aniketproject.medsist.patient.PtDocFragment;
+import com.aniketproject.medsist.patient.PtExcerFragment;
+import com.aniketproject.medsist.patient.PtHomeFragment;
+import com.aniketproject.medsist.patient.PtMediFragment;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 

@@ -1,4 +1,4 @@
-package com.aniketproject.medsist;
+package com.aniketproject.medsist.doctor;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -13,10 +13,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.aniketproject.medsist.Pat_Adapter;
 import com.aniketproject.medsist.R;
 import com.aniketproject.medsist.Users;
 
-import com.aniketproject.medsist.patient.PatHomeActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

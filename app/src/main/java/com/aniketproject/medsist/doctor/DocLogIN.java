@@ -1,4 +1,4 @@
-package com.aniketproject.medsist;
+package com.aniketproject.medsist.doctor;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.aniketproject.medsist.patient.PatSignIn;
+import com.aniketproject.medsist.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

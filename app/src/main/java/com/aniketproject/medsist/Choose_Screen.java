@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.aniketproject.medsist.doctor.DocLogIN;
 import com.aniketproject.medsist.patient.PatLogIN;
 
 public class Choose_Screen extends AppCompatActivity {

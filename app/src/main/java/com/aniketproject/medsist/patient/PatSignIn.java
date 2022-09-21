@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.aniketproject.medsist.R;
 import com.aniketproject.medsist.Users;
+import com.aniketproject.medsist.doctor.PatHomeActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -127,7 +128,7 @@ public class PatSignIn extends AppCompatActivity {
                                                             public void onComplete(@NonNull Task<Void> task) {
                                                                 if (task.isSuccessful()){
                                                                     progressDialog.dismiss();
-                                                                    startActivity(new Intent(PatSignIn.this,PatHomeActivity.class));
+                                                                    startActivity(new Intent(PatSignIn.this, PatHomeActivity.class));
                                                                     finish();
                                                                 }else {
                                                                     Toast.makeText(PatSignIn.this, "Error In Creating a new User", Toast.LENGTH_SHORT).show();

@@ -27,28 +27,28 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".DocHomeActivity"
+            android:name=".doctor.DocHomeActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".DocSignIn"
+            android:name=".doctor.DocSignIn"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".DocLogIN"
+            android:name=".doctor.DocLogIN"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".patient.PatHomeActivity"
+            android:name=".doctor.PatHomeActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

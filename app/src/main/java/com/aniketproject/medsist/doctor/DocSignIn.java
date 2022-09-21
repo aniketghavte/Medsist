@@ -1,4 +1,4 @@
-package com.aniketproject.medsist;
+package com.aniketproject.medsist.doctor;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -14,7 +14,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.aniketproject.medsist.patient.PatLogIN;
+import com.aniketproject.medsist.R;
+import com.aniketproject.medsist.Users;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
